@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LabelGeneratorApplication</class>
+ <widget class="QDialog" name="LabelGeneratorApplication">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>407</width>
+    <height>288</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Label Generator Application</string>
+  </property>
+  <widget class="QLabel" name="lbl_title">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>20</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Label Generator Application</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_text">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>101</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Text&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_enter_text">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>ENTER TEXT</string>
+   </property>
+   <property name="buddy">
+    <cstring>lineEdit</cstring>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>170</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>FOR EX. 123456789 ABCDEF......</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_text_insert">
+   <property name="geometry">
+    <rect>
+     <x>44</x>
+     <y>220</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TEXT INSERT</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_barcode_generate">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>220</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BARCODE
+GENERATE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_qrcode_generate">
+   <property name="geometry">
+    <rect>
+     <x>274</x>
+     <y>220</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>QRCODE
+GENERATE</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_barcode_image">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>92</y>
+     <width>81</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Barcode&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Image&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_qrcode_image">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>90</y>
+     <width>61</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;QRcode&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Image&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>lineEdit</tabstop>
+  <tabstop>btn_text_insert</tabstop>
+  <tabstop>btn_barcode_generate</tabstop>
+  <tabstop>btn_qrcode_generate</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
